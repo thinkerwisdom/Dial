@@ -1,4 +1,4 @@
-# DIal
+# Dial
 
 Demo de selector circular controlado con rueda, clic y doble clic.
 
