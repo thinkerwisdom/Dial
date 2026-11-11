@@ -1,0 +1,124 @@
+{
+  "id": "principal",
+  "nombre": "Principal",
+  "tipo": "menu",
+  "items": [
+    {
+      "id": "premios",
+      "nombre": "Premios",
+      "tipo": "menu",
+      "icono": "trophy",
+      "items": [
+        { "id": "ruleta-premios", "nombre": "Ruleta de premios", "tipo": "actividad", "ruta": "ruleta" },
+        { "id": "cofre-sorpresa", "nombre": "Cofre sorpresa", "tipo": "actividad", "ruta": "cofre-sorpresa" }
+      ]
+    },
+    {
+      "id": "creatividad",
+      "nombre": "Creatividad",
+      "tipo": "menu",
+      "icono": "palette",
+      "items": [
+        {
+          "id": "experimentos",
+          "nombre": "Experimentos",
+          "tipo": "menu",
+          "icono": "sparkles",
+          "items": [
+            {
+              "id": "visuales",
+              "nombre": "Visuales",
+              "tipo": "menu",
+              "icono": "image",
+              "items": [
+                { "id": "dibujar", "nombre": "Dibujar", "tipo": "actividad", "ruta": "dibujar" },
+                { "id": "colores", "nombre": "Colores", "tipo": "actividad", "ruta": "colores" }
+              ]
+            },
+            {
+              "id": "sonidos",
+              "nombre": "Sonidos",
+              "tipo": "menu",
+              "icono": "music",
+              "items": [
+                { "id": "ritmos", "nombre": "Ritmos", "tipo": "actividad", "ruta": "ritmos" }
+              ]
+            }
+          ]
+        },
+        { "id": "historias", "nombre": "Historias", "tipo": "actividad", "icono": "book", "ruta": "historias" }
+      ]
+    },
+    {
+      "id": "desbloqueo",
+      "nombre": "Desbloqueo",
+      "tipo": "menu",
+      "icono": "lock",
+      "items": [
+        {
+          "id": "nivel-uno",
+          "nombre": "Nivel 1",
+          "tipo": "menu",
+          "items": [
+            { "id": "memoria", "nombre": "Memoria", "tipo": "actividad", "ruta": "memoria" },
+            { "id": "reflejos", "nombre": "Reflejos", "tipo": "actividad", "ruta": "reflejos" }
+          ]
+        },
+        {
+          "id": "nivel-dos",
+          "nombre": "Nivel 2",
+          "tipo": "menu",
+          "items": [
+            { "id": "patrones", "nombre": "Patrones", "tipo": "actividad", "ruta": "patrones" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actividades",
+      "nombre": "Actividades",
+      "tipo": "menu",
+      "icono": "calendar",
+      "items": [
+        {
+          "id": "movimiento",
+          "nombre": "Movimiento",
+          "tipo": "menu",
+          "icono": "activity",
+          "items": [
+            { "id": "pausa-activa", "nombre": "Pausa activa", "tipo": "actividad", "ruta": "pausa-activa" },
+            { "id": "sigue-ritmo", "nombre": "Sigue el ritmo", "tipo": "actividad", "ruta": "sigue-ritmo" }
+          ]
+        },
+        {
+          "id": "atencion",
+          "nombre": "Atención",
+          "tipo": "menu",
+          "icono": "brain",
+          "items": [
+            { "id": "encuentra-color", "nombre": "Encuentra el color", "tipo": "actividad", "ruta": "encuentra-color" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ambiente",
+      "nombre": "Ambiente",
+      "tipo": "menu",
+      "icono": "leaf",
+      "items": [
+        {
+          "id": "relajacion",
+          "nombre": "Relajación",
+          "tipo": "menu",
+          "icono": "leaf",
+          "items": [
+            { "id": "bosque", "nombre": "Bosque", "tipo": "actividad", "ruta": "bosque" },
+            { "id": "oceano", "nombre": "Océano", "tipo": "actividad", "ruta": "oceano" }
+          ]
+        },
+        { "id": "iluminacion", "nombre": "Iluminación", "tipo": "actividad", "ruta": "iluminacion" }
+      ]
+    }
+  ]
+}
